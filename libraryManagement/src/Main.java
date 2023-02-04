@@ -61,6 +61,9 @@ public class Main {
         Library library = new Library();
         library.addBook(101, "Java", "James Gosling");
         library.addBook(102, "C++", "Bjarne Stroustrup");
+        library.addBook(103, "Python", "Guido");
+        library.addBook(104, "C", "James");
+        
 
         library.displayBooks();
         library.borrowBook(102);
